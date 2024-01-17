@@ -8,19 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		6AF361282B56D03900E69E61 /* TestSwiftDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF361272B56D03900E69E61 /* TestSwiftDataApp.swift */; };
-		6AF3612A2B56D03900E69E61 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF361292B56D03900E69E61 /* ContentView.swift */; };
-		6AF3612C2B56D03900E69E61 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF3612B2B56D03900E69E61 /* Item.swift */; };
 		6AF3612E2B56D03A00E69E61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AF3612D2B56D03A00E69E61 /* Assets.xcassets */; };
 		6AF361312B56D03A00E69E61 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AF361302B56D03A00E69E61 /* Preview Assets.xcassets */; };
+		6AF3613B2B56DBF700E69E61 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF361392B56DBF700E69E61 /* Contact.swift */; };
+		6AF3613E2B56DC1A00E69E61 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF3613D2B56DC1A00E69E61 /* Constants.swift */; };
+		6AF361432B56DC2300E69E61 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF361402B56DC2300E69E61 /* DataManager.swift */; };
+		6AF361442B56DC2300E69E61 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF361412B56DC2300E69E61 /* StorageManager.swift */; };
+		6AF361452B56DC2300E69E61 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF361422B56DC2300E69E61 /* DataStore.swift */; };
+		6AF361572B56DC5600E69E61 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF3614D2B56DC5600E69E61 /* ContactsView.swift */; };
+		6AF361582B56DC5600E69E61 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF3614F2B56DC5600E69E61 /* DetailsView.swift */; };
+		6AF361592B56DC5600E69E61 /* ContactLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF361502B56DC5600E69E61 /* ContactLinkView.swift */; };
+		6AF3615A2B56DC5600E69E61 /* PersonImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF361512B56DC5600E69E61 /* PersonImageView.swift */; };
+		6AF3615E2B56E24B00E69E61 /* ContactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF3615D2B56E24B00E69E61 /* ContactsViewModel.swift */; };
+		6AF361622B57FBCC00E69E61 /* NewContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF361612B57FBCC00E69E61 /* NewContactView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6AF361242B56D03900E69E61 /* TestSwiftData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSwiftData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AF361272B56D03900E69E61 /* TestSwiftDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSwiftDataApp.swift; sourceTree = "<group>"; };
-		6AF361292B56D03900E69E61 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		6AF3612B2B56D03900E69E61 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		6AF3612D2B56D03A00E69E61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6AF361302B56D03A00E69E61 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6AF361392B56DBF700E69E61 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		6AF3613D2B56DC1A00E69E61 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6AF361402B56DC2300E69E61 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		6AF361412B56DC2300E69E61 /* StorageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		6AF361422B56DC2300E69E61 /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		6AF3614D2B56DC5600E69E61 /* ContactsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		6AF3614F2B56DC5600E69E61 /* DetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		6AF361502B56DC5600E69E61 /* ContactLinkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactLinkView.swift; sourceTree = "<group>"; };
+		6AF361512B56DC5600E69E61 /* PersonImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonImageView.swift; sourceTree = "<group>"; };
+		6AF3615D2B56E24B00E69E61 /* ContactsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewModel.swift; sourceTree = "<group>"; };
+		6AF361612B57FBCC00E69E61 /* NewContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewContactView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +72,11 @@
 			isa = PBXGroup;
 			children = (
 				6AF361272B56D03900E69E61 /* TestSwiftDataApp.swift */,
-				6AF361292B56D03900E69E61 /* ContentView.swift */,
-				6AF3612B2B56D03900E69E61 /* Item.swift */,
-				6AF3612D2B56D03A00E69E61 /* Assets.xcassets */,
+				6AF361372B56DBF700E69E61 /* Models */,
+				6AF361472B56DC5600E69E61 /* Scenes */,
+				6AF3613F2B56DC2300E69E61 /* Services */,
+				6AF3613C2B56DC1A00E69E61 /* Constants */,
+				6AF361462B56DC2800E69E61 /* Resources */,
 				6AF3612F2B56D03A00E69E61 /* Preview Content */,
 			);
 			path = TestSwiftData;
@@ -68,6 +88,69 @@
 				6AF361302B56D03A00E69E61 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6AF361372B56DBF700E69E61 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6AF361392B56DBF700E69E61 /* Contact.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6AF3613C2B56DC1A00E69E61 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				6AF3613D2B56DC1A00E69E61 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		6AF3613F2B56DC2300E69E61 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6AF361402B56DC2300E69E61 /* DataManager.swift */,
+				6AF361412B56DC2300E69E61 /* StorageManager.swift */,
+				6AF361422B56DC2300E69E61 /* DataStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6AF361462B56DC2800E69E61 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6AF3612D2B56D03A00E69E61 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6AF361472B56DC5600E69E61 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				6AF361542B56DC5600E69E61 /* ContactsScene */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		6AF3614E2B56DC5600E69E61 /* ContactsViewSubviews */ = {
+			isa = PBXGroup;
+			children = (
+				6AF361502B56DC5600E69E61 /* ContactLinkView.swift */,
+				6AF3614F2B56DC5600E69E61 /* DetailsView.swift */,
+				6AF361512B56DC5600E69E61 /* PersonImageView.swift */,
+				6AF361612B57FBCC00E69E61 /* NewContactView.swift */,
+			);
+			path = ContactsViewSubviews;
+			sourceTree = "<group>";
+		};
+		6AF361542B56DC5600E69E61 /* ContactsScene */ = {
+			isa = PBXGroup;
+			children = (
+				6AF3615D2B56E24B00E69E61 /* ContactsViewModel.swift */,
+				6AF3614D2B56DC5600E69E61 /* ContactsView.swift */,
+				6AF3614E2B56DC5600E69E61 /* ContactsViewSubviews */,
+			);
+			path = ContactsScene;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,8 +223,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AF3612A2B56D03900E69E61 /* ContentView.swift in Sources */,
-				6AF3612C2B56D03900E69E61 /* Item.swift in Sources */,
+				6AF3613E2B56DC1A00E69E61 /* Constants.swift in Sources */,
+				6AF361592B56DC5600E69E61 /* ContactLinkView.swift in Sources */,
+				6AF361452B56DC2300E69E61 /* DataStore.swift in Sources */,
+				6AF361432B56DC2300E69E61 /* DataManager.swift in Sources */,
+				6AF361572B56DC5600E69E61 /* ContactsView.swift in Sources */,
+				6AF361582B56DC5600E69E61 /* DetailsView.swift in Sources */,
+				6AF361442B56DC2300E69E61 /* StorageManager.swift in Sources */,
+				6AF3615A2B56DC5600E69E61 /* PersonImageView.swift in Sources */,
+				6AF361622B57FBCC00E69E61 /* NewContactView.swift in Sources */,
+				6AF3613B2B56DBF700E69E61 /* Contact.swift in Sources */,
+				6AF3615E2B56E24B00E69E61 /* ContactsViewModel.swift in Sources */,
 				6AF361282B56D03900E69E61 /* TestSwiftDataApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
